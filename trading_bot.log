@@ -1,0 +1,884 @@
+2025-02-26 03:00:40 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.70 USD
+2025-02-26 03:00:40 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.06 USD
+2025-02-26 03:00:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.70 USD
+2025-02-26 03:00:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.72 USD
+2025-02-26 03:00:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.70 USD
+2025-02-26 03:00:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.59 USD
+2025-02-26 03:01:04 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.80 USD
+2025-02-26 03:01:04 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.52 USD
+2025-02-26 03:01:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.80 USD
+2025-02-26 03:01:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:01:22 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 7.50 USD
+2025-02-26 03:01:22 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.25 USD
+2025-02-26 03:01:36 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 7.80 USD
+2025-02-26 03:01:36 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.26 USD
+2025-02-26 03:01:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 7.30 USD
+2025-02-26 03:01:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.52 USD
+2025-02-26 03:01:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.30 USD
+2025-02-26 03:01:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.46 USD
+2025-02-26 03:02:02 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.10 USD
+2025-02-26 03:02:02 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.46 USD
+2025-02-26 03:02:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.10 USD
+2025-02-26 03:02:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.93 USD
+2025-02-26 03:02:18 - INFO - 
+##### Enviando orden SELL en USDMXN #####
+2025-02-26 03:02:18 - INFO - Precio de ejecución: 20.45107
+2025-02-26 03:02:18 - INFO - Stop Loss (SL): 20.45607
+2025-02-26 03:02:18 - INFO - Take Profit (TP): 20.44107
+2025-02-26 03:02:19 - INFO - Orden SELL ejecutada en USDMXN. Precio: 20.45107, SL: 20.45607, TP: 20.44107
+2025-02-26 03:02:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.30 USD
+2025-02-26 03:02:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.26 USD
+2025-02-26 03:02:27 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 7.90 USD
+2025-02-26 03:02:27 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.40 USD
+2025-02-26 03:02:27 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.80 USD
+2025-02-26 03:02:36 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.20 USD
+2025-02-26 03:02:36 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.53 USD
+2025-02-26 03:02:36 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.80 USD
+2025-02-26 03:02:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 8.30 USD
+2025-02-26 03:02:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.93 USD
+2025-02-26 03:02:44 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.80 USD
+2025-02-26 03:02:53 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.80 USD
+2025-02-26 03:02:53 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.26 USD
+2025-02-26 03:02:53 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.32 USD
+2025-02-26 03:03:02 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.20 USD
+2025-02-26 03:03:02 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.86 USD
+2025-02-26 03:03:02 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.24 USD
+2025-02-26 03:03:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.10 USD
+2025-02-26 03:03:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.46 USD
+2025-02-26 03:03:10 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.22 USD
+2025-02-26 03:03:18 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.20 USD
+2025-02-26 03:03:18 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 03:03:18 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.56 USD
+2025-02-26 03:03:26 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.20 USD
+2025-02-26 03:03:26 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.92 USD
+2025-02-26 03:03:26 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.68 USD
+2025-02-26 03:03:35 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.90 USD
+2025-02-26 03:03:35 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.92 USD
+2025-02-26 03:03:35 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.53 USD
+2025-02-26 03:03:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.30 USD
+2025-02-26 03:03:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 03:03:43 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.68 USD
+2025-02-26 03:03:53 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 03:03:53 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 03:03:53 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.39 USD
+2025-02-26 03:04:03 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.60 USD
+2025-02-26 03:04:03 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.72 USD
+2025-02-26 03:04:03 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.92 USD
+2025-02-26 03:04:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.80 USD
+2025-02-26 03:04:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.25 USD
+2025-02-26 03:04:12 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.92 USD
+2025-02-26 03:04:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.70 USD
+2025-02-26 03:04:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.11 USD
+2025-02-26 03:04:21 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.68 USD
+2025-02-26 03:04:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.90 USD
+2025-02-26 03:04:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.51 USD
+2025-02-26 03:04:30 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.32 USD
+2025-02-26 03:04:38 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 03:04:38 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.44 USD
+2025-02-26 03:04:38 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.36 USD
+2025-02-26 03:04:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.10 USD
+2025-02-26 03:04:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.98 USD
+2025-02-26 03:04:47 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.02 USD
+2025-02-26 03:04:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.30 USD
+2025-02-26 03:04:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.51 USD
+2025-02-26 03:04:56 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.95 USD
+2025-02-26 03:05:05 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 03:05:05 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.45 USD
+2025-02-26 03:05:05 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.39 USD
+2025-02-26 03:05:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 03:05:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.31 USD
+2025-02-26 03:05:12 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.51 USD
+2025-02-26 03:05:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 03:05:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.51 USD
+2025-02-26 03:05:21 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.31 USD
+2025-02-26 03:05:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.20 USD
+2025-02-26 03:05:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.64 USD
+2025-02-26 03:05:30 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.88 USD
+2025-02-26 03:05:39 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.50 USD
+2025-02-26 03:05:39 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.71 USD
+2025-02-26 03:05:39 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.85 USD
+2025-02-26 03:05:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.80 USD
+2025-02-26 03:05:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.57 USD
+2025-02-26 03:05:47 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.85 USD
+2025-02-26 03:05:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.30 USD
+2025-02-26 03:05:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.71 USD
+2025-02-26 03:09:10 - WARNING - 5 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002C9C8CFFD00> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-26 03:09:11 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 03:09:11 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.32 USD
+2025-02-26 03:09:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.70 USD
+2025-02-26 03:09:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.52 USD
+2025-02-26 03:09:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.70 USD
+2025-02-26 03:09:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.59 USD
+2025-02-26 03:09:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.60 USD
+2025-02-26 03:09:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.59 USD
+2025-02-26 03:09:35 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.40 USD
+2025-02-26 03:09:35 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.25 USD
+2025-02-26 03:09:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.50 USD
+2025-02-26 03:09:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.32 USD
+2025-02-26 03:09:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 03:09:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:09:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.00 USD
+2025-02-26 03:09:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.05 USD
+2025-02-26 03:09:52 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.50 USD
+2025-02-26 03:09:52 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.92 USD
+2025-02-26 03:09:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 03:09:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:10:01 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.00 USD
+2025-02-26 03:10:01 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.18 USD
+2025-02-26 03:10:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.10 USD
+2025-02-26 03:10:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.98 USD
+2025-02-26 03:10:11 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.70 USD
+2025-02-26 03:10:11 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.85 USD
+2025-02-26 03:10:15 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.40 USD
+2025-02-26 03:10:15 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.92 USD
+2025-02-26 03:10:22 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.10 USD
+2025-02-26 03:10:22 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.45 USD
+2025-02-26 03:10:26 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.50 USD
+2025-02-26 03:10:26 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:10:28 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 03:10:28 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:10:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.50 USD
+2025-02-26 03:10:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:10:38 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.60 USD
+2025-02-26 03:10:38 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.52 USD
+2025-02-26 03:10:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.60 USD
+2025-02-26 03:10:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 03:10:49 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.50 USD
+2025-02-26 03:10:49 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.05 USD
+2025-02-26 03:10:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.10 USD
+2025-02-26 03:10:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 03:10:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.10 USD
+2025-02-26 03:10:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 03:11:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 03:11:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.26 USD
+2025-02-26 03:11:14 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.60 USD
+2025-02-26 03:11:14 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.65 USD
+2025-02-26 03:11:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 03:11:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.99 USD
+2025-02-26 03:11:27 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.60 USD
+2025-02-26 03:11:27 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.39 USD
+2025-02-26 03:11:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.70 USD
+2025-02-26 03:11:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.12 USD
+2025-02-26 03:11:41 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 03:11:41 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.72 USD
+2025-02-26 03:11:48 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.70 USD
+2025-02-26 03:11:48 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.13 USD
+2025-02-26 03:11:52 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.70 USD
+2025-02-26 03:11:52 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.93 USD
+2025-02-26 03:49:06 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x00000253C0903880> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-26 03:49:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 03:49:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.17 USD
+2025-02-26 03:49:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 03:49:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.10 USD
+2025-02-26 03:49:36 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 03:49:36 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.10 USD
+2025-02-26 03:49:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 03:49:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.83 USD
+2025-02-26 03:50:00 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.40 USD
+2025-02-26 03:50:00 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.89 USD
+2025-02-26 03:50:13 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 03:50:13 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.83 USD
+2025-02-26 03:50:26 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.40 USD
+2025-02-26 03:50:26 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.56 USD
+2025-02-26 03:50:41 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 03:50:41 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.56 USD
+2025-02-26 03:50:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 03:50:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.09 USD
+2025-02-26 03:51:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 03:51:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 5.62 USD
+2025-02-26 03:51:18 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 03:51:18 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.68 USD
+2025-02-26 03:51:29 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 03:51:29 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.35 USD
+2025-02-26 03:51:42 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 03:51:42 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.89 USD
+2025-02-26 03:51:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 03:51:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.55 USD
+2025-02-26 03:52:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 03:52:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.28 USD
+2025-02-26 03:52:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.60 USD
+2025-02-26 03:52:17 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.95 USD
+2025-02-26 03:52:28 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.20 USD
+2025-02-26 03:52:28 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.35 USD
+2025-02-26 03:52:40 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.50 USD
+2025-02-26 03:52:40 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.95 USD
+2025-02-26 03:52:50 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.50 USD
+2025-02-26 03:52:50 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.08 USD
+2025-02-26 03:53:02 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.90 USD
+2025-02-26 03:53:02 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.15 USD
+2025-02-26 03:53:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 03:53:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.55 USD
+2025-02-26 03:53:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.60 USD
+2025-02-26 03:53:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.55 USD
+2025-02-26 03:53:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 03:53:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 5.02 USD
+2025-02-26 03:53:45 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 03:53:45 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.55 USD
+2025-02-26 03:53:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.60 USD
+2025-02-26 03:53:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.48 USD
+2025-02-26 03:54:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 03:54:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.55 USD
+2025-02-26 03:54:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 03:54:17 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.48 USD
+2025-02-26 03:54:28 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 03:54:28 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.08 USD
+2025-02-26 03:54:39 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 03:54:39 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.08 USD
+2025-02-26 03:54:51 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 03:54:51 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 4.02 USD
+2025-02-26 03:55:01 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 03:55:01 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.95 USD
+2025-02-26 03:55:13 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 03:55:13 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.81 USD
+2025-02-26 03:55:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.80 USD
+2025-02-26 03:55:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.55 USD
+2025-02-26 03:55:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.70 USD
+2025-02-26 03:55:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 3.28 USD
+2025-02-26 03:55:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 03:55:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 5.89 USD
+2025-02-26 03:55:58 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 03:55:58 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.02 USD
+2025-02-26 03:56:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 03:56:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.50 USD
+2025-02-26 03:56:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 03:56:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 6.96 USD
+2025-02-26 03:56:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 03:56:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.23 USD
+2025-02-26 03:56:41 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 03:56:41 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.10 USD
+2025-02-26 03:56:51 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.00 USD
+2025-02-26 03:56:51 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.23 USD
+2025-02-26 03:57:02 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 03:57:02 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.70 USD
+2025-02-26 03:57:14 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 03:57:14 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.90 USD
+2025-02-26 03:57:24 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.90 USD
+2025-02-26 03:57:24 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.23 USD
+2025-02-26 03:57:35 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.40 USD
+2025-02-26 03:57:35 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.50 USD
+2025-02-26 03:57:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 03:57:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.17 USD
+2025-02-26 03:57:58 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.90 USD
+2025-02-26 03:57:58 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.90 USD
+2025-02-26 03:58:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 03:58:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.10 USD
+2025-02-26 03:58:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 03:58:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.50 USD
+2025-02-26 03:58:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 03:58:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.90 USD
+2025-02-26 03:58:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 03:58:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.83 USD
+2025-02-26 03:58:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 03:58:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.17 USD
+2025-02-26 03:59:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 03:59:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.23 USD
+2025-02-26 03:59:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 03:59:17 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.03 USD
+2025-02-26 03:59:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 03:59:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.23 USD
+2025-02-26 03:59:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 03:59:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.10 USD
+2025-02-26 03:59:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 03:59:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.70 USD
+2025-02-26 04:00:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 04:00:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.97 USD
+2025-02-26 04:00:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.00 USD
+2025-02-26 04:00:17 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.97 USD
+2025-02-26 04:00:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.80 USD
+2025-02-26 04:00:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.50 USD
+2025-02-26 04:00:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:00:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.83 USD
+2025-02-26 04:00:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 04:00:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.30 USD
+2025-02-26 04:01:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:01:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.90 USD
+2025-02-26 04:01:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.60 USD
+2025-02-26 04:01:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.83 USD
+2025-02-26 04:01:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 04:01:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.44 USD
+2025-02-26 04:01:45 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.40 USD
+2025-02-26 04:01:45 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 7.97 USD
+2025-02-26 04:01:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.60 USD
+2025-02-26 04:01:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.57 USD
+2025-02-26 04:02:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:02:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.03 USD
+2025-02-26 04:02:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.70 USD
+2025-02-26 04:02:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.90 USD
+2025-02-26 04:02:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 04:02:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.84 USD
+2025-02-26 04:02:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.40 USD
+2025-02-26 04:02:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.11 USD
+2025-02-26 04:02:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.50 USD
+2025-02-26 04:02:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.71 USD
+2025-02-26 04:03:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.50 USD
+2025-02-26 04:03:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.38 USD
+2025-02-26 04:03:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 6.10 USD
+2025-02-26 04:03:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.13 USD
+2025-02-26 04:03:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 04:03:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.06 USD
+2025-02-26 04:03:41 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 04:03:41 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.79 USD
+2025-02-26 04:03:52 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 04:03:52 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.46 USD
+2025-02-26 04:04:03 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.80 USD
+2025-02-26 04:04:03 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.93 USD
+2025-02-26 04:04:14 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.10 USD
+2025-02-26 04:04:14 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.26 USD
+2025-02-26 04:04:25 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.30 USD
+2025-02-26 04:04:25 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.39 USD
+2025-02-26 04:04:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.30 USD
+2025-02-26 04:04:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.26 USD
+2025-02-26 04:04:48 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.20 USD
+2025-02-26 04:04:48 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.85 USD
+2025-02-26 04:04:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 5.10 USD
+2025-02-26 04:04:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.32 USD
+2025-02-26 04:05:11 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.20 USD
+2025-02-26 04:05:11 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.12 USD
+2025-02-26 04:05:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 4.10 USD
+2025-02-26 04:05:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.92 USD
+2025-02-26 04:05:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.90 USD
+2025-02-26 04:05:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.58 USD
+2025-02-26 04:05:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.50 USD
+2025-02-26 04:05:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.85 USD
+2025-02-26 04:05:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.00 USD
+2025-02-26 04:05:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.18 USD
+2025-02-26 04:06:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 04:06:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.25 USD
+2025-02-26 04:06:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:06:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.71 USD
+2025-02-26 04:06:32 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 04:06:32 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.44 USD
+2025-02-26 04:06:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 04:06:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.90 USD
+2025-02-26 04:06:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:06:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.77 USD
+2025-02-26 04:07:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:07:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.97 USD
+2025-02-26 04:07:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.90 USD
+2025-02-26 04:07:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 8.77 USD
+2025-02-26 04:07:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 04:07:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.44 USD
+2025-02-26 04:07:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.80 USD
+2025-02-26 04:07:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.37 USD
+2025-02-26 04:07:54 - INFO - 
+##### Enviando orden SELL en XAUUSD #####
+2025-02-26 04:07:54 - INFO - Precio de ejecución: 2915.54000
+2025-02-26 04:07:54 - INFO - Stop Loss (SL): 2920.54000
+2025-02-26 04:07:54 - INFO - Take Profit (TP): 2905.54000
+2025-02-26 04:07:54 - INFO - Orden SELL ejecutada en XAUUSD. Precio: 2915.54000, SL: 2920.54000, TP: 2905.54000
+2025-02-26 04:07:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.70 USD
+2025-02-26 04:07:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 9.91 USD
+2025-02-26 04:07:56 - INFO - Revisando orden abierta en XAUUSD: Ganancia actual = -2.50 USD
+2025-02-26 04:08:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:08:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.38 USD
+2025-02-26 04:08:08 - INFO - Revisando orden abierta en XAUUSD: Ganancia actual = -9.30 USD
+2025-02-26 04:08:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.90 USD
+2025-02-26 04:08:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 10.25 USD
+2025-02-26 04:08:20 - INFO - Revisando orden abierta en XAUUSD: Ganancia actual = -10.70 USD
+2025-02-26 04:08:20 - INFO - Cierre automático: XAUUSD alcanzó Stop Loss (-10.70 USD). Cerrando orden...
+2025-02-26 04:08:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 04:08:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.92 USD
+2025-02-26 04:08:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:08:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.92 USD
+2025-02-26 04:08:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:08:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.79 USD
+2025-02-26 04:09:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:09:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.12 USD
+2025-02-26 04:09:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:09:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.92 USD
+2025-02-26 04:09:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:09:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.99 USD
+2025-02-26 04:09:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 04:09:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.26 USD
+2025-02-26 04:09:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:09:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.32 USD
+2025-02-26 04:10:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.60 USD
+2025-02-26 04:10:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 12.39 USD
+2025-02-26 04:10:18 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.80 USD
+2025-02-26 04:10:18 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 11.59 USD
+2025-02-26 04:10:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:10:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.80 USD
+2025-02-26 04:10:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 04:10:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 13.93 USD
+2025-02-26 04:10:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:10:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 14.67 USD
+2025-02-26 04:11:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:11:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 17.22 USD
+2025-02-26 04:11:06 - INFO - Cierre automático: USDJPY alcanzó Take Profit (+17.22 USD). Cerrando orden...
+2025-02-26 04:11:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:11:29 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.90 USD
+2025-02-26 04:11:39 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.00 USD
+2025-02-26 04:11:50 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.80 USD
+2025-02-26 04:12:01 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.40 USD
+2025-02-26 04:12:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:12:22 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:12:29 - INFO - 
+##### Enviando orden SELL en USDJPY #####
+2025-02-26 04:12:29 - INFO - Precio de ejecución: 149.24500
+2025-02-26 04:12:29 - INFO - Stop Loss (SL): 149.74500
+2025-02-26 04:12:29 - INFO - Take Profit (TP): 148.24500
+2025-02-26 04:12:30 - INFO - Orden SELL ejecutada en USDJPY. Precio: 149.24500, SL: 149.74500, TP: 148.24500
+2025-02-26 04:12:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:12:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.40 USD
+2025-02-26 04:12:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:12:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.07 USD
+2025-02-26 04:12:58 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.40 USD
+2025-02-26 04:12:58 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.00 USD
+2025-02-26 04:13:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.50 USD
+2025-02-26 04:13:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.67 USD
+2025-02-26 04:13:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.50 USD
+2025-02-26 04:13:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.47 USD
+2025-02-26 04:13:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.00 USD
+2025-02-26 04:13:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.67 USD
+2025-02-26 04:13:45 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.00 USD
+2025-02-26 04:13:45 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.47 USD
+2025-02-26 04:13:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.90 USD
+2025-02-26 04:13:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.67 USD
+2025-02-26 04:14:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.60 USD
+2025-02-26 04:14:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.00 USD
+2025-02-26 04:14:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:14:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.47 USD
+2025-02-26 04:14:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.70 USD
+2025-02-26 04:14:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.67 USD
+2025-02-26 04:14:42 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.30 USD
+2025-02-26 04:14:42 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.01 USD
+2025-02-26 04:14:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.00 USD
+2025-02-26 04:14:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.01 USD
+2025-02-26 04:15:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.00 USD
+2025-02-26 04:15:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.01 USD
+2025-02-26 04:15:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.20 USD
+2025-02-26 04:15:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.94 USD
+2025-02-26 04:15:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.60 USD
+2025-02-26 04:15:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.94 USD
+2025-02-26 04:15:42 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.00 USD
+2025-02-26 04:15:42 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.28 USD
+2025-02-26 04:15:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:15:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.14 USD
+2025-02-26 04:16:05 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:16:05 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.08 USD
+2025-02-26 04:16:15 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:16:15 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.54 USD
+2025-02-26 04:16:27 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 04:16:27 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.00 USD
+2025-02-26 04:16:39 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 04:16:39 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.07 USD
+2025-02-26 04:16:47 - INFO - 
+##### Enviando orden SELL en USDMXN #####
+2025-02-26 04:16:47 - INFO - Precio de ejecución: 20.44157
+2025-02-26 04:16:47 - INFO - Stop Loss (SL): 20.44657
+2025-02-26 04:16:47 - INFO - Take Profit (TP): 20.43157
+2025-02-26 04:16:48 - INFO - Orden SELL ejecutada en USDMXN. Precio: 20.44157, SL: 20.44657, TP: 20.43157
+2025-02-26 04:16:50 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:16:50 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.80 USD
+2025-02-26 04:16:50 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.95 USD
+2025-02-26 04:17:01 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:17:01 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.34 USD
+2025-02-26 04:17:01 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.61 USD
+2025-02-26 04:17:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 04:17:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.27 USD
+2025-02-26 04:17:12 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -1.39 USD
+2025-02-26 04:17:25 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 04:17:25 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.20 USD
+2025-02-26 04:17:25 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.01 USD
+2025-02-26 04:17:38 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 04:17:38 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.00 USD
+2025-02-26 04:17:38 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 1.82 USD
+2025-02-26 04:17:50 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 04:17:50 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.13 USD
+2025-02-26 04:17:50 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 1.52 USD
+2025-02-26 04:18:03 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:18:03 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.20 USD
+2025-02-26 04:18:03 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 1.82 USD
+2025-02-26 04:18:14 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:18:14 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.60 USD
+2025-02-26 04:18:26 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:18:26 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.07 USD
+2025-02-26 04:18:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.50 USD
+2025-02-26 04:18:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.07 USD
+2025-02-26 04:18:48 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:18:48 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = 0.00 USD
+2025-02-26 04:18:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 04:18:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.34 USD
+2025-02-26 04:19:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.90 USD
+2025-02-26 04:19:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.34 USD
+2025-02-26 04:19:22 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 04:19:22 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.47 USD
+2025-02-26 04:19:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.60 USD
+2025-02-26 04:19:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.34 USD
+2025-02-26 04:19:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:19:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.47 USD
+2025-02-26 04:19:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.40 USD
+2025-02-26 04:19:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -0.74 USD
+2025-02-26 04:20:11 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:20:11 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.41 USD
+2025-02-26 04:20:22 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:20:22 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.21 USD
+2025-02-26 04:20:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 04:20:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.41 USD
+2025-02-26 04:20:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 04:20:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.41 USD
+2025-02-26 04:20:58 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:20:58 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.41 USD
+2025-02-26 04:21:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.70 USD
+2025-02-26 04:21:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.88 USD
+2025-02-26 04:21:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.00 USD
+2025-02-26 04:21:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.62 USD
+2025-02-26 04:21:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.10 USD
+2025-02-26 04:21:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.42 USD
+2025-02-26 04:21:46 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.70 USD
+2025-02-26 04:21:46 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.75 USD
+2025-02-26 04:21:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:21:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.42 USD
+2025-02-26 04:22:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 04:22:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.29 USD
+2025-02-26 04:22:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 04:22:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.02 USD
+2025-02-26 04:22:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 04:22:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.09 USD
+2025-02-26 04:22:42 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:22:42 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.02 USD
+2025-02-26 04:22:55 - INFO - 
+##### Enviando orden SELL en XAGUSD #####
+2025-02-26 04:22:55 - INFO - Precio de ejecución: 31.78900
+2025-02-26 04:22:55 - INFO - Stop Loss (SL): 32.28900
+2025-02-26 04:22:55 - INFO - Take Profit (TP): 30.78900
+2025-02-26 04:22:55 - INFO - Orden SELL ejecutada en XAGUSD. Precio: 31.78900, SL: 32.28900, TP: 30.78900
+2025-02-26 04:22:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 04:22:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.35 USD
+2025-02-26 04:23:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:23:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.09 USD
+2025-02-26 04:23:06 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.00 USD
+2025-02-26 04:23:18 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 04:23:18 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.94 USD
+2025-02-26 04:23:18 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.50 USD
+2025-02-26 04:23:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.10 USD
+2025-02-26 04:23:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.34 USD
+2025-02-26 04:23:30 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -9.00 USD
+2025-02-26 04:23:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.20 USD
+2025-02-26 04:23:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.61 USD
+2025-02-26 04:23:43 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -7.00 USD
+2025-02-26 04:23:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 04:23:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -1.54 USD
+2025-02-26 04:23:56 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -5.00 USD
+2025-02-26 04:24:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.70 USD
+2025-02-26 04:24:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.55 USD
+2025-02-26 04:24:09 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -7.50 USD
+2025-02-26 04:24:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.50 USD
+2025-02-26 04:24:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.61 USD
+2025-02-26 04:24:20 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -5.00 USD
+2025-02-26 04:24:32 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:24:32 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.81 USD
+2025-02-26 04:24:32 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.00 USD
+2025-02-26 04:24:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.40 USD
+2025-02-26 04:24:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -2.88 USD
+2025-02-26 04:24:44 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -5.00 USD
+2025-02-26 04:24:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.80 USD
+2025-02-26 04:24:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.15 USD
+2025-02-26 04:24:56 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:25:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.30 USD
+2025-02-26 04:25:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -3.62 USD
+2025-02-26 04:25:09 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -5.50 USD
+2025-02-26 04:25:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.20 USD
+2025-02-26 04:25:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.76 USD
+2025-02-26 04:25:21 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:25:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.20 USD
+2025-02-26 04:25:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.89 USD
+2025-02-26 04:25:33 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.00 USD
+2025-02-26 04:25:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.10 USD
+2025-02-26 04:25:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -4.96 USD
+2025-02-26 04:25:44 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:25:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.70 USD
+2025-02-26 04:25:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.36 USD
+2025-02-26 04:25:56 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.00 USD
+2025-02-26 04:26:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.90 USD
+2025-02-26 04:26:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.69 USD
+2025-02-26 04:26:08 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.00 USD
+2025-02-26 04:26:20 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.40 USD
+2025-02-26 04:26:20 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.16 USD
+2025-02-26 04:26:20 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.00 USD
+2025-02-26 04:26:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.80 USD
+2025-02-26 04:26:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.96 USD
+2025-02-26 04:26:33 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:26:43 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.10 USD
+2025-02-26 04:26:43 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.76 USD
+2025-02-26 04:26:43 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:26:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:26:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.16 USD
+2025-02-26 04:26:54 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -1.00 USD
+2025-02-26 04:27:06 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.00 USD
+2025-02-26 04:27:06 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.30 USD
+2025-02-26 04:27:06 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -4.50 USD
+2025-02-26 04:27:17 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.40 USD
+2025-02-26 04:27:17 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.30 USD
+2025-02-26 04:27:17 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.00 USD
+2025-02-26 04:27:28 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.30 USD
+2025-02-26 04:27:28 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.30 USD
+2025-02-26 04:27:28 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -7.00 USD
+2025-02-26 04:27:40 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.50 USD
+2025-02-26 04:27:40 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.10 USD
+2025-02-26 04:27:40 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.00 USD
+2025-02-26 04:27:51 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:27:51 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.37 USD
+2025-02-26 04:27:51 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -6.50 USD
+2025-02-26 04:28:03 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:28:03 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.03 USD
+2025-02-26 04:28:03 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -9.00 USD
+2025-02-26 04:28:15 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.20 USD
+2025-02-26 04:28:15 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.36 USD
+2025-02-26 04:28:15 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -10.00 USD
+2025-02-26 04:28:15 - INFO - Cierre automático: XAGUSD alcanzó Stop Loss (-10.00 USD). Cerrando orden...
+2025-02-26 04:28:27 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.90 USD
+2025-02-26 04:28:27 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.23 USD
+2025-02-26 04:28:39 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.20 USD
+2025-02-26 04:28:39 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.43 USD
+2025-02-26 04:28:50 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:28:50 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.43 USD
+2025-02-26 04:29:02 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:29:02 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.23 USD
+2025-02-26 04:29:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.30 USD
+2025-02-26 04:29:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.50 USD
+2025-02-26 04:29:24 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.80 USD
+2025-02-26 04:29:24 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.23 USD
+2025-02-26 04:29:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.10 USD
+2025-02-26 04:29:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.23 USD
+2025-02-26 04:29:49 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.80 USD
+2025-02-26 04:29:49 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.90 USD
+2025-02-26 04:30:01 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.30 USD
+2025-02-26 04:30:01 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.50 USD
+2025-02-26 04:30:14 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.10 USD
+2025-02-26 04:30:14 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.36 USD
+2025-02-26 04:30:28 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.70 USD
+2025-02-26 04:30:28 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.03 USD
+2025-02-26 04:30:40 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.10 USD
+2025-02-26 04:30:40 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.16 USD
+2025-02-26 04:30:54 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.30 USD
+2025-02-26 04:30:54 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.16 USD
+2025-02-26 04:31:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.60 USD
+2025-02-26 04:31:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.83 USD
+2025-02-26 04:31:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.40 USD
+2025-02-26 04:31:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.30 USD
+2025-02-26 04:31:30 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.50 USD
+2025-02-26 04:31:30 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.57 USD
+2025-02-26 04:31:42 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.90 USD
+2025-02-26 04:31:42 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.30 USD
+2025-02-26 04:31:53 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.20 USD
+2025-02-26 04:31:53 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.90 USD
+2025-02-26 04:32:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.20 USD
+2025-02-26 04:32:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:32:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.40 USD
+2025-02-26 04:32:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.37 USD
+2025-02-26 04:32:32 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.60 USD
+2025-02-26 04:32:32 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.37 USD
+2025-02-26 04:32:45 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.50 USD
+2025-02-26 04:32:45 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.57 USD
+2025-02-26 04:32:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.50 USD
+2025-02-26 04:32:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.64 USD
+2025-02-26 04:33:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.50 USD
+2025-02-26 04:33:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -9.10 USD
+2025-02-26 04:33:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -3.10 USD
+2025-02-26 04:33:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.64 USD
+2025-02-26 04:33:34 - INFO - 
+##### Enviando orden SELL en XAGUSD #####
+2025-02-26 04:33:34 - INFO - Precio de ejecución: 31.77500
+2025-02-26 04:33:34 - INFO - Stop Loss (SL): 32.27500
+2025-02-26 04:33:34 - INFO - Take Profit (TP): 30.77500
+2025-02-26 04:33:34 - INFO - Orden SELL ejecutada en XAGUSD. Precio: 31.77500, SL: 32.27500, TP: 30.77500
+2025-02-26 04:33:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.70 USD
+2025-02-26 04:33:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.50 USD
+2025-02-26 04:33:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.20 USD
+2025-02-26 04:33:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.64 USD
+2025-02-26 04:33:47 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -8.00 USD
+2025-02-26 04:33:56 - INFO - 
+##### Enviando orden SELL en USDMXN #####
+2025-02-26 04:33:56 - INFO - Precio de ejecución: 20.45637
+2025-02-26 04:33:56 - INFO - Stop Loss (SL): 20.46137
+2025-02-26 04:33:56 - INFO - Take Profit (TP): 20.44637
+2025-02-26 04:33:56 - INFO - Orden SELL ejecutada en USDMXN. Precio: 20.45637, SL: 20.46137, TP: 20.44637
+2025-02-26 04:33:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.20 USD
+2025-02-26 04:33:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.70 USD
+2025-02-26 04:33:59 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -8.00 USD
+2025-02-26 04:33:59 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.78 USD
+2025-02-26 04:34:10 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -2.00 USD
+2025-02-26 04:34:10 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.64 USD
+2025-02-26 04:34:10 - INFO - Revisando orden abierta en XAGUSD: Ganancia actual = -12.50 USD
+2025-02-26 04:34:10 - INFO - Cierre automático: XAGUSD alcanzó Stop Loss (-12.50 USD). Cerrando orden...
+2025-02-26 04:34:10 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.53 USD
+2025-02-26 04:34:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.90 USD
+2025-02-26 04:34:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:34:21 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = -0.78 USD
+2025-02-26 04:34:34 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.20 USD
+2025-02-26 04:34:34 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:34:34 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 0.98 USD
+2025-02-26 04:34:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.10 USD
+2025-02-26 04:34:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.17 USD
+2025-02-26 04:34:47 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 0.98 USD
+2025-02-26 04:34:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.20 USD
+2025-02-26 04:34:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.57 USD
+2025-02-26 04:34:59 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 0.93 USD
+2025-02-26 04:35:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -1.10 USD
+2025-02-26 04:35:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:35:12 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.40 USD
+2025-02-26 04:35:25 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = -0.20 USD
+2025-02-26 04:35:25 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.77 USD
+2025-02-26 04:35:25 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.25 USD
+2025-02-26 04:35:40 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.30 USD
+2025-02-26 04:35:40 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.97 USD
+2025-02-26 04:35:40 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.62 USD
+2025-02-26 04:35:53 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.20 USD
+2025-02-26 04:35:53 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:35:53 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.33 USD
+2025-02-26 04:36:07 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.90 USD
+2025-02-26 04:36:07 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -8.44 USD
+2025-02-26 04:36:07 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.87 USD
+2025-02-26 04:36:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.30 USD
+2025-02-26 04:36:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.90 USD
+2025-02-26 04:36:19 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.96 USD
+2025-02-26 04:36:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.80 USD
+2025-02-26 04:36:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.97 USD
+2025-02-26 04:36:31 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 1.79 USD
+2025-02-26 04:36:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.40 USD
+2025-02-26 04:36:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.50 USD
+2025-02-26 04:36:44 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 1.89 USD
+2025-02-26 04:36:56 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 0.90 USD
+2025-02-26 04:36:56 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.63 USD
+2025-02-26 04:36:56 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 2.01 USD
+2025-02-26 04:37:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.20 USD
+2025-02-26 04:37:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.77 USD
+2025-02-26 04:37:09 - INFO - Revisando orden abierta en USDMXN: Ganancia actual = 4.41 USD
+2025-02-26 04:37:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.40 USD
+2025-02-26 04:37:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.90 USD
+2025-02-26 04:37:33 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.00 USD
+2025-02-26 04:37:33 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.63 USD
+2025-02-26 04:37:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 1.90 USD
+2025-02-26 04:37:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.03 USD
+2025-02-26 04:37:55 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.40 USD
+2025-02-26 04:37:55 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.30 USD
+2025-02-26 04:38:08 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.20 USD
+2025-02-26 04:38:08 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -7.50 USD
+2025-02-26 04:38:19 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:38:19 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.43 USD
+2025-02-26 04:38:31 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 2.30 USD
+2025-02-26 04:38:31 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.43 USD
+2025-02-26 04:38:44 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 04:38:44 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.50 USD
+2025-02-26 04:38:57 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 04:38:57 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.83 USD
+2025-02-26 04:39:09 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.30 USD
+2025-02-26 04:39:09 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.36 USD
+2025-02-26 04:39:21 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 04:39:21 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -5.76 USD
+2025-02-26 04:39:35 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 04:39:35 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.23 USD
+2025-02-26 04:39:47 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.60 USD
+2025-02-26 04:39:47 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.36 USD
+2025-02-26 04:39:59 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 04:39:59 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.96 USD
+2025-02-26 04:40:12 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.10 USD
+2025-02-26 04:40:12 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.90 USD
+2025-02-26 04:40:23 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.20 USD
+2025-02-26 04:40:23 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.83 USD
+2025-02-26 04:40:37 - INFO - Revisando orden abierta en EURUSD: Ganancia actual = 3.80 USD
+2025-02-26 04:40:37 - INFO - Revisando orden abierta en USDJPY: Ganancia actual = -6.96 USD
+2025-02-26 15:45:01 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000025B94DD7A30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-26 15:45:02 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:08 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:15 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:21 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:27 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:34 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:41 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:48 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:45:54 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:01 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:08 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:15 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:21 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:27 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:34 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:41 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:47 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:53 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:46:59 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:06 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:12 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:19 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:26 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:33 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:39 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:46 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:52 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:47:59 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:05 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:12 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:19 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:25 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:31 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:38 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:44 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:50 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:48:57 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:03 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:09 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:16 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:22 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:29 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:36 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:43 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:50 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:49:56 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:03 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:09 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:16 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:22 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:30 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:36 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:42 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:49 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:50:55 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:01 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:08 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:14 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:20 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:27 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:33 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:40 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:46 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:52 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:51:58 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:05 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:12 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:19 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:25 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:31 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:38 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:45 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:52 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:52:58 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:04 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:11 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:18 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:25 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:32 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:39 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:45 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 15:53:52 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:06:01 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:06:07 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:06:13 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:06:19 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:16:15 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000024329A97A30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-26 16:16:15 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:16:22 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:16:28 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:16:34 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:16:40 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:17 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x0000020DAE10FA30> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-02-26 16:33:17 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:23 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:29 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:35 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:41 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:48 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:33:54 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:34:00 - INFO - No hay órdenes abiertas en este momento.
+2025-02-26 16:34:06 - INFO - No hay órdenes abiertas en este momento.
