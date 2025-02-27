@@ -23,7 +23,7 @@ import csv
 import matplotlib
 matplotlib.use('Agg')  # Evita problemas en hilos secundarios
 import matplotlib.pyplot as plt
-from keras_tuner import RandomSearch  # Solo lo mantenemos si realmente se usa
+#from keras_tuner import RandomSearch  # Solo lo mantenemos si realmente se usa
 import sys
 sys.stdout = open(sys.stdout.fileno(), mode='w', encoding='utf-8', buffering=1)
 from sklearn.preprocessing import StandardScaler  # Asegurar que está importado
@@ -35,27 +35,32 @@ import joblib
 
 
 magicNumber = 789654
-my_candles = 5000
-
-# Configuración de los parámetros de trading
-SL_PIPS = 500  # Stop Loss en pips
-TP_PIPS = 1000  # Take Profit en pips
-TRAILING_STOP_PIPS = 500  # Distancia mínima del SL respecto al precio actual
-TRAILING_STEP_PIPS = 200  # Pips que deben moverse antes de actualizar el SL
+my_candles = 2000 #5000
+my_TIMEFRAME = mt5.TIMEFRAME_M5
 
 # Configuración de modelo LSTM optimizado
-LSTM_UNITS_1 = 128  # Aumentamos a 128 neuronas
-LSTM_UNITS_2 = 64  # Segunda capa con 64 neuronas
-USE_BIDIRECTIONAL = True  # Activar LSTM bidireccional
-DROPOUT_RATE_1 = 0.1  # Reducimos dropout
-DROPOUT_RATE_2 = 0.1  # Reducimos dropout
-INPUT_TIMESTEPS = 10  # Mantener secuencia de 10 timesteps
+USE_BIDIRECTIONAL = False #True  # Activar LSTM bidireccional
+LSTM_UNITS_1 = 256  # Aumentamos la capacidad de la primera capa
+LSTM_UNITS_2 = 128  # Segunda capa con más unidades
+DROPOUT_RATE_1 = 0.05  # Reducimos el dropout para evitar perder demasiada información
+DROPOUT_RATE_2 = 0.05
+INPUT_TIMESTEPS = 30  # Aumentamos la ventana de observación
+LEARNING_RATE = 0.0003  # Reducimos la tasa de aprendizaje para mayor estabilidad
 INPUT_FEATURES = 9  # Mantener 9 features
 DENSE_UNITS = 1  # Capa de salida con 1 neurona
 
+
 # Hiperparámetros de entrenamiento optimizados
-EPOCHS = 200  # Aumentamos las épocas
-BATCH_SIZE = 16  # Reducimos batch size para mayor precisión
+EPOCHS = 50 #200  # Aumentamos las épocas
+BATCH_SIZE = 32 #16  # Reducimos batch size para mayor precisión
+
+# Configuración de los parámetros de trading
+SL_PIPS = 100 #500  # Stop Loss en pips
+TP_PIPS = 200 #1000  # Take Profit en pips
+TRAILING_STOP_PIPS = 100 #500  # Distancia mínima del SL respecto al precio actual
+TRAILING_STEP_PIPS = 50 #200  # Pips que deben moverse antes de actualizar el SL
+
+
 
 # Variables globales
 models = {}  # Diccionario para almacenar modelos de ML
@@ -74,34 +79,36 @@ logging.basicConfig(
 )
 
 def create_lstm_model():
-    """Crea un modelo LSTM optimizado para trading."""
+    """Crea un modelo LSTM optimizado para trading con regularización para evitar sobreajuste."""
     model = keras.models.Sequential()
     model.add(Input(shape=(INPUT_TIMESTEPS, INPUT_FEATURES)))
 
     if USE_BIDIRECTIONAL:
-        model.add(Bidirectional(LSTM(128, return_sequences=True, activation="tanh", recurrent_activation="sigmoid")))
+        model.add(Bidirectional(LSTM(128, return_sequences=True, kernel_regularizer=tf.keras.regularizers.l2(0.001))))
     else:
-        model.add(LSTM(128, return_sequences=True, activation="tanh", recurrent_activation="sigmoid"))
+        model.add(LSTM(128, return_sequences=True, kernel_regularizer=tf.keras.regularizers.l2(0.001)))
 
     model.add(BatchNormalization())
-    model.add(Dropout(0.2))
+    model.add(Dropout(0.2))  # Aumentamos dropout para evitar sobreajuste
 
     if USE_BIDIRECTIONAL:
-        model.add(Bidirectional(LSTM(64, return_sequences=False, activation="tanh", recurrent_activation="sigmoid")))
+        model.add(Bidirectional(LSTM(64, return_sequences=False, kernel_regularizer=tf.keras.regularizers.l2(0.001))))
     else:
-        model.add(LSTM(64, return_sequences=False, activation="tanh", recurrent_activation="sigmoid"))
+        model.add(LSTM(64, return_sequences=False, kernel_regularizer=tf.keras.regularizers.l2(0.001)))
 
     model.add(BatchNormalization())
     model.add(Dropout(0.2))
 
-    model.add(Dense(32, activation="relu"))
+    # Agregamos una capa intermedia para mejorar la captación de patrones
+    model.add(Dense(32, activation="relu", kernel_regularizer=tf.keras.regularizers.l2(0.001)))
     model.add(BatchNormalization())
 
-    model.add(Dense(1))  
+    model.add(Dense(1))  # Predecimos la diferencia con el precio actual, no el precio absoluto
 
-    model.compile(optimizer=keras.optimizers.Adam(learning_rate=0.001), loss="mse")
+    model.compile(optimizer=keras.optimizers.Adam(LEARNING_RATE), loss="mse")
 
     return model
+
 
 
 
@@ -237,7 +244,7 @@ def validate_data(df):
 retraining_status = {}  # Diccionario para controlar el estado del reentrenamiento
 
 def retrain_model(symbol):
-    """Reentrena el modelo LSTM para un símbolo específico y guarda el escalador de salida correctamente."""
+    """Reentrena el modelo LSTM para un símbolo específico integrando datos históricos desde CSV y nuevos datos del mercado."""
     global retraining_status
 
     if retraining_status.get(symbol, False):
@@ -267,11 +274,19 @@ def retrain_model(symbol):
 
     features = ['open', 'high', 'low', 'close', 'tick_volume', 'SMA_10', 'SMA_50', 'RSI', 'volatility']
 
+    # Aplicar normalización y guardar los escaladores
     scaler_X = MinMaxScaler()
     df[features] = scaler_X.fit_transform(df[features])
 
     scaler_y = MinMaxScaler()
     df['close_scaled'] = scaler_y.fit_transform(df[['close']])
+
+    # Guardar escaladores después de normalizar los datos
+    scaler_X_filename = f"scaler_X_{symbol}.pkl"
+    scaler_y_filename = f"scaler_y_{symbol}.pkl"
+    joblib.dump(scaler_X, scaler_X_filename)
+    joblib.dump(scaler_y, scaler_y_filename)
+    print(f"Escaladores guardados: {scaler_X_filename}, {scaler_y_filename}")
 
     X, y = [], []
     for i in range(INPUT_TIMESTEPS, len(df)):
@@ -282,7 +297,7 @@ def retrain_model(symbol):
 
     # Definir el modelo
     model = keras.models.Sequential()
-    model.add(Input(shape=(INPUT_TIMESTEPS, INPUT_FEATURES)))  
+    model.add(Input(shape=(INPUT_TIMESTEPS, INPUT_FEATURES)))  # Definir capa de entrada explícita
 
     if USE_BIDIRECTIONAL:
         model.add(Bidirectional(LSTM(LSTM_UNITS_1, return_sequences=True)))
@@ -307,13 +322,13 @@ def retrain_model(symbol):
     # Entrenar el modelo
     model.fit(X, y, epochs=EPOCHS, batch_size=BATCH_SIZE, verbose=1)
 
-    # Guardar el modelo y el escalador de salida
+    # Guardar el modelo entrenado
     model.save(f"lstm_model_{symbol}.keras")
     models[symbol] = model
-    joblib.dump(scaler_y, f"scaler_y_{symbol}.pkl")
 
     print(f"Modelo reentrenado y escalador guardado para {symbol}.")
     retraining_status[symbol] = False
+
 
 
 
@@ -376,10 +391,30 @@ def optimize_model(symbol, df):
     """Optimiza los hiperparámetros del modelo LSTM para mejorar su rendimiento."""
     print(f"Optimizando modelo para {symbol}...")
 
+    # Asegurar que los indicadores están calculados antes de la normalización
+    df = add_technical_indicators(df)
+
+    # Definir las características esperadas
     features = ['open', 'high', 'low', 'close', 'tick_volume', 'SMA_10', 'SMA_50', 'RSI', 'volatility']
+
+    # Verificar si todas las características están en el DataFrame antes de aplicar la normalización
+    missing_features = [feature for feature in features if feature not in df.columns]
+    if missing_features:
+        print(f"Advertencia: Faltan las siguientes columnas en {symbol}: {missing_features}.")
+        print(f"Revisando si los datos pueden calcularse nuevamente...")
+        df = add_technical_indicators(df)  # Intentar calcular nuevamente los indicadores
+
+        # Verificar si aún faltan columnas
+        missing_features = [feature for feature in features if feature not in df.columns]
+        if missing_features:
+            print(f"Error crítico: No se pueden encontrar las columnas necesarias {missing_features} en {symbol}.")
+            return
+
+    # Aplicar normalización de los datos
     scaler = MinMaxScaler()
     df[features] = scaler.fit_transform(df[features])
 
+    # Preparación de los datos
     X, y = [], []
     for i in range(10, len(df)):
         X.append(df.iloc[i-10:i][features].values)
@@ -388,7 +423,7 @@ def optimize_model(symbol, df):
     X, y = np.array(X), np.array(y)
 
     def build_model(hp):
-        model = keras.models.Sequential() #model = Sequential()        
+        model = keras.models.Sequential()
         model.add(Input(shape=(10, 9)))  # Define la forma de entrada explícitamente
         model.add(LSTM(hp.Int('units', min_value=32, max_value=128, step=32), return_sequences=True))
         model.add(Dropout(hp.Float('dropout', 0.1, 0.5, step=0.1)))
@@ -407,18 +442,19 @@ def optimize_model(symbol, df):
         project_name=f"opt_{symbol}"
     )
 
-    tuner.search(X, y, epochs=EPOCHS, batch_size=BATCH_SIZE, validation_split=0.2)
+    tuner.search(X, y, epochs=50, batch_size=16, validation_split=0.2)
 
     best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
 
     print(f"Mejores hiperparámetros para {symbol}: {best_hps.values}")
 
     best_model = tuner.hypermodel.build(best_hps)
-    best_model.fit(X, y, epochs=EPOCHS, batch_size=BATCH_SIZE, validation_split=0.2)
+    best_model.fit(X, y, epochs=50, batch_size=16, validation_split=0.2)
     best_model.save(f"lstm_model_{symbol}.keras")
 
     models[symbol] = best_model
     print(f"Modelo optimizado para {symbol} guardado correctamente.")
+
 
 
 def generate_model(symbol, df):
@@ -582,7 +618,7 @@ def get_market_data(symbol, n_candles, cache_time=30, save_to_csv=False):
     if not check_mt5_connection():
         return None
 
-    rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M5, 0, n_candles)
+    rates = mt5.copy_rates_from_pos(symbol, my_TIMEFRAME, 0, n_candles)
     if rates is None or len(rates) == 0:
         log_message(f"No se pudieron obtener datos para {symbol}.", "error")
         return None
@@ -764,7 +800,7 @@ def get_market_data_from_mt5(symbol, n_candles):
     if not check_mt5_connection():
         return None
 
-    rates = mt5.copy_rates_from_pos(symbol, mt5.TIMEFRAME_M5, 0, n_candles)
+    rates = mt5.copy_rates_from_pos(symbol, my_TIMEFRAME, 0, n_candles)
     
     if rates is None or len(rates) == 0:
         print(f" Error al obtener datos del mercado para {symbol}.")
@@ -1123,7 +1159,7 @@ def simulation_thread():
 
                 if validate_trade_signal(symbol, predicted_price, actual_price, df):
                     order_type = "BUY" if predicted_price > actual_price else "SELL"
-                    print(f"📌 Ejecutando orden simulada: {order_type} en {symbol} a {actual_price}...")
+                    print(f"orden simulada: {order_type} en {symbol} a {actual_price}...")
                     paper_trading.send_order(symbol, order_type, actual_price)
 
             except Exception as e:
@@ -1276,34 +1312,14 @@ class TradingBotGUI:
 
 
 def analyze_correlation():
-    """Calcula y visualiza la correlación entre los activos seleccionados."""
-    print("Calculando correlaciones entre activos...")
+    """Calcula la correlación entre los indicadores y el precio de cierre."""
+    df = get_market_data("EURUSD", my_candles)
+    df = add_technical_indicators(df)
+    correlation_matrix = df.corr()
+    print(correlation_matrix["close"])  # Ver relación con el precio de cierre
 
-    market_data = {}
-    for symbol in SYMBOLS:
-        df = get_market_data(symbol, my_candles)
-        if df is not None:
-            market_data[symbol] = df['close']
 
-    if len(market_data) < 2:
-        print("No hay suficientes datos de activos para calcular la correlación.")
-        return
 
-    # Crear un DataFrame con los precios de cierre de cada activo
-    df_correlation = pd.DataFrame(market_data)
-
-    # Calcular la matriz de correlación
-    correlation_matrix = df_correlation.corr()
-
-    # Guardar la matriz de correlación en un archivo CSV
-    correlation_matrix.to_csv("correlation_matrix.csv")
-    print("Matriz de correlación guardada en 'correlation_matrix.csv'.")
-
-    # Visualizar la correlación con un heatmap
-    plt.figure(figsize=(10, 6))
-    sns.heatmap(correlation_matrix, annot=True, cmap="coolwarm", fmt=".2f", linewidths=0.5)
-    plt.title("Matriz de Correlación entre Activos")
-    plt.show()
 
 def detect_trend(df):
     """Detecta la tendencia del mercado usando medias móviles y RSI."""
@@ -1422,7 +1438,7 @@ def log_model_performance(symbol, predicted_price, actual_price, trend, volatili
     print(f"Desempeño de {symbol} registrado: Error={error:.5f}, Tendencia={trend}, Volatilidad={volatility:.5f}")
 
 def analyze_model_performance():
-    """Analiza el rendimiento de los modelos y decide si necesitan ser reentrenados."""
+    """Verifica si el modelo necesita ser reentrenado basándose en el error promedio."""
     try:
         df = pd.read_csv("model_performance_log.csv")
     except FileNotFoundError:
@@ -1435,6 +1451,7 @@ def analyze_model_performance():
         if error > 0.005:  # Si el error promedio es mayor al 0.5% del precio
             print(f"El modelo para {symbol} tiene un error alto ({error:.5f}). Se procederá a reentrenarlo.")
             retrain_model(symbol)
+
 
 
 
@@ -1524,7 +1541,7 @@ def retrain_model(symbol):
 
 
 def manage_trailing_stop():
-    """Ajusta el Stop Loss dinámico si el precio avanza lo suficiente."""
+    """Ajusta el Stop Loss dinámico si el precio avanza lo suficiente en beneficio."""
     if not check_mt5_connection():
         return
 
@@ -1541,16 +1558,28 @@ def manage_trailing_stop():
         point = mt5.symbol_info(symbol).point
         current_price = mt5.symbol_info_tick(symbol).bid if order_type == mt5.ORDER_TYPE_BUY else mt5.symbol_info_tick(symbol).ask
 
+        entry_price = position.price_open
         previous_sl = position.sl
         new_sl = previous_sl
 
-        if order_type == mt5.ORDER_TYPE_BUY:
-            if current_price - previous_sl >= TRAILING_STEP_PIPS * point:
-                new_sl = current_price - TRAILING_STOP_PIPS * point
-        elif order_type == mt5.ORDER_TYPE_SELL:
-            if previous_sl - current_price >= TRAILING_STEP_PIPS * point:
-                new_sl = current_price + TRAILING_STOP_PIPS * point
+        # Verifica si la posición está en beneficio antes de mover el SL
+        if (order_type == mt5.ORDER_TYPE_BUY and current_price > entry_price) or \
+           (order_type == mt5.ORDER_TYPE_SELL and current_price < entry_price):
 
+            # Definir el nuevo SL si el precio ha avanzado el TRAILING_STEP_PIPS
+            if order_type == mt5.ORDER_TYPE_BUY:
+                if current_price - entry_price >= TRAILING_STEP_PIPS * point:
+                    potential_sl = current_price - TRAILING_STOP_PIPS * point
+                    if potential_sl > entry_price and (previous_sl < potential_sl or previous_sl <= entry_price):
+                        new_sl = potential_sl
+
+            elif order_type == mt5.ORDER_TYPE_SELL:
+                if entry_price - current_price >= TRAILING_STEP_PIPS * point:
+                    potential_sl = current_price + TRAILING_STOP_PIPS * point
+                    if potential_sl < entry_price and (previous_sl > potential_sl or previous_sl >= entry_price):
+                        new_sl = potential_sl
+
+        # Solo actualizar el SL si hay un nuevo valor válido
         if new_sl != previous_sl:
             request = {
                 "action": mt5.TRADE_ACTION_SLTP,
@@ -1561,6 +1590,9 @@ def manage_trailing_stop():
             result = mt5.order_send(request)
             if result.retcode == mt5.TRADE_RETCODE_DONE:
                 print(f"Trailing Stop actualizado en {symbol} a {new_sl:.5f}")
+            else:
+                print(f"Error al actualizar Trailing Stop en {symbol}: {result.comment}")
+
 
 
 
@@ -1569,7 +1601,7 @@ def manage_trailing_stop():
 
 # Ejecución del trading en tiempo real
 def real_trading():
-    """Ejecuta trading en tiempo real asegurando que las predicciones sean confiables."""
+    """Ejecuta trading en tiempo real asegurando que las predicciones sean confiables y en la misma escala."""
     global running
 
     if not models:
@@ -1596,23 +1628,45 @@ def real_trading():
 
             try:
                 required_columns = ['open', 'high', 'low', 'close', 'tick_volume', 'SMA_10', 'SMA_50', 'RSI', 'volatility']
-                X_input = np.array([df.iloc[-INPUT_TIMESTEPS:][required_columns].values])
 
-                predicted_scaled = models[symbol].predict(X_input)[0][0]
+                # Verificar que las columnas requeridas existen en los datos
+                missing_columns = [col for col in required_columns if col not in df.columns]
+                if missing_columns:
+                    print(f"Error: Faltan las siguientes columnas en {symbol}: {missing_columns}")
+                    continue
+
+                # Cargar escaladores
+                scaler_X_filename = f"scaler_X_{symbol}.pkl"
                 scaler_y_filename = f"scaler_y_{symbol}.pkl"
-                
-                if os.path.exists(scaler_y_filename):
+
+                if os.path.exists(scaler_X_filename) and os.path.exists(scaler_y_filename):
+                    scaler_X = joblib.load(scaler_X_filename)
                     scaler_y = joblib.load(scaler_y_filename)
-                    predicted_price = scaler_y.inverse_transform(np.array([[predicted_scaled]]))[0][0]
+                    df_scaled = pd.DataFrame(scaler_X.transform(df[required_columns]), columns=required_columns)
                 else:
-                    predicted_price = df['close'].mean() 
+                    print(f"Advertencia: scaler_X o scaler_y no encontrados para {symbol}, usando datos sin escalar.")
+                    df_scaled = df[required_columns]
+
+                # Asegurar que se toman exactamente INPUT_TIMESTEPS
+                if len(df_scaled) < INPUT_TIMESTEPS:
+                    print(f"Advertencia: No hay suficientes datos recientes para {symbol}. Se requieren {INPUT_TIMESTEPS} timesteps.")
+                    continue
+
+                # Preparar entrada para la predicción
+                X_input = np.array([df_scaled.iloc[-INPUT_TIMESTEPS:].values])
+
+                # Realizar predicción
+                predicted_scaled = models[symbol].predict(X_input)[0][0]
+                predicted_price = scaler_y.inverse_transform([[predicted_scaled]])[0][0] if os.path.exists(scaler_y_filename) else predicted_scaled
 
                 actual_price = df.iloc[-1]['close']
 
                 print(f"Predicción para {symbol}: {predicted_price:.5f}, Precio actual: {actual_price:.5f}")
 
+                # Guardar predicción
                 save_prediction(symbol, predicted_price, actual_price)
 
+                # Validar si la señal de trading es válida antes de operar
                 if not validate_trade_signal(symbol, predicted_price, actual_price, df):
                     print(f"Señal de {symbol} descartada tras validación.")
                     continue
@@ -1621,6 +1675,7 @@ def real_trading():
                     print(f"Orden abierta detectada en {symbol}. No se enviará otra.")
                     continue
 
+                # Determinar si la orden será de compra o venta
                 order_type = "BUY" if predicted_price > actual_price else "SELL"
                 print(f"Enviando orden {order_type} en {symbol} a precio {actual_price:.5f}...")
                 send_order(symbol, order_type)
@@ -1628,6 +1683,7 @@ def real_trading():
             except Exception as e:
                 print(f"Error en el trading de {symbol}: {e}")
 
+        # Análisis de rendimiento del modelo
         analyze_model_performance()
         check_orders()
         manage_trailing_stop()
@@ -1635,6 +1691,9 @@ def real_trading():
         time.sleep(5)
 
     print("Trading en tiempo real detenido.")
+
+
+
 
 
 
